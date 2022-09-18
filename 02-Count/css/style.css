@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f1f5f8;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	max-width: 900px;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 36px;
+}
+.image {
+	max-width: 100%;
+	margin-bottom: 16px;
+}
+.countdown {
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	font-size: 16px;
+	color: #ffffff;
+	max-width: 480px;
+}
+.countdown-item{
+	background-color: #49a6e9;
+	padding: 6px;
+	margin: 5px;
+	
+}
+.timedown{
+	color: red;
+}
